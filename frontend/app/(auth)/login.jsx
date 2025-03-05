@@ -25,6 +25,7 @@ export default function login() {
       Alert.alert("Validation Error", "Both fields are required.");
       return;
     }
+    router.push("/HomeScreen")
 
     // Add your login logic here
     Alert.alert("Login Successful!");
